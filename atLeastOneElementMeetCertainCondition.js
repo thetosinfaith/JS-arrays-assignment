@@ -6,8 +6,6 @@ const atLeastOneElementMeetsCertainCondition = (oneElement) => {
 
     return oneElement.some(checkCondition => checkCondition > 100)
     
-
-
 }
 
 let input = [7, 9, 10, 19, 22, 127]
